@@ -1,0 +1,141 @@
+/*BODY FONT-STYLE*/
+body {
+    font-family: 'Spartan', sans-serif;
+  /*background-image: url("");*/
+}
+
+
+/*EYE SYMBOL*/
+.visible {
+    color: red;
+    font-size: 17px;
+    visibility: hidden
+}
+
+/*SIGN  IN FORM STYLE*/
+.container {
+    margin-top: 180px;
+    margin-left: 150px;
+
+}
+
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container input[type="text"],
+input[type="password"],input[type="tel"] {
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+
+
+}
+
+.container input {
+    width: 40%;
+    margin-bottom: 25px;
+
+}
+
+.button {
+    background-color: #ffc64d;
+    border: none;
+    height: 40px;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.sign {
+    background-color: #ffc64d;
+    padding-top: 10px;
+    border: none;
+    width: 170px;
+    text-align: center;
+    height: 40px;
+
+}
+
+.sign:hover {
+    opacity: 70%;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*nav*/
+.z{
+    margin-right: -14px;
+       
+        }
+
+        nav{
+    z-index:1;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.6%;
+    padding: 40px 100px;
+    }
+    
+    nav .logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    color:black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    z-index: 100000;
+    
+    }
+  
+    nav ul
+    {
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    nav ul li{
+    
+        position: relative;
+        list-style:none ;
+    
+    }
+    nav ul li a{
+        cursor: pointer;
+        margin:  0  15px;
+        text-decoration: none;
+        color:black ;
+        letter-spacing: 2px;
+        font-weight: 500px;
+        transition: 0.5s;
+    }
+    
+    
+    nav ul li a:hover{
+        color:#ffc64d
+    }
+    nav ul .active{
+        color:#ebbf60
+    }

@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppines',sans-serif;
+
+}
+
+
+nav{
+    z-index:1;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.6%;
+    padding: 40px 100px;
+    }
+    
+    nav .logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    color:black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    z-index: 100000;
+    
+    }
+  
+    nav ul
+    {
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    nav ul li{
+    
+        position: relative;
+        list-style:none ;
+    
+    }
+    nav ul li a{
+        cursor: pointer;
+        margin:  0  15px;
+        text-decoration: none;
+        color:black ;
+        letter-spacing: 2px;
+        font-weight: 500px;
+        transition: 0.5s;
+    }
+    
+    
+    nav ul li a:hover{
+        color:#ffc64d
+    }
+    nav ul .active{
+        color:#ebbf60
+    }
+
+    .z{
+margin-right: -14px;
+   
+    }
+
+.container{
+    left: 0;
+    top: 0;
+    animation: 16s animate infinite ;
+    background-size: cover;
+    width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+left: 0;
+    top: 0;
+
+}
+.outer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0,0 , 0, 0.25)
+}
+
+
+
+@keyframes animate{
+    0%,100% {
+    background-image: url(https://cdn.lazurde.com/static/version1643995588/frontend/Gurubhyo/Lazurde/en_US/images/home-page/SHOP_BY_CATEGORY_400_X_400_PX_Shop_all.jpg?fbclid=IwAR1veCNuQzQmOaL3CxAFN2v-Nazu1GSogC6m3ZDYREHsn6To0tE3RzKQkQk
+);
+    }
+    25%{
+        background-image: url(https://cdn.lazurde.com/static/version1643995588/frontend/Gurubhyo/Lazurde/en_US/images/home-page/SHOP_BY_CATEGORY_400_X_400_PX_Bracelets.jpg?fbclid=IwAR2hVKCl2icsh6Yk2GSGkL9_4CC6XLrdVZp88GjwJnf_JfMriiJ_JMi9RiM
+);
+        }
+       65% {
+            background-image: url(https://cdn.lazurde.com/static/version1643995588/frontend/Gurubhyo/Lazurde/en_US/images/home-page/SHOP_BY_CATEGORY_400_X_400_PX_Earrings.jpg?fbclid=IwAR11bVSrCDHjXOwC_0L6Kw41oO9Ekkk9HFc_ZWOP7JYmhwRnpzWOptJa5zM
+);
+            }
+           60%  {
+                  background-image: url(https://cdn.lazurde.com/media/wysiwyg/home-page/DIAMONDS_DROP_DOWN_1200_320_EGYPT.jpg?fbclid=IwAR3mEQr-CR5WzVtwe3Qdq1ikgcSERZX_EopY0InpfTGlZKtTOscIshfJbk0
+);
+                        }
+                        45%  {
+                            background-image: url(https://cdn.lazurde.com/media/wysiwyg/home-page/DROP_DOWN_MISS_L_1200_X_320_PX_2_COMPRESSED.jpg?fbclid=IwAR2QhaYUzN4cWMfkVZGhNk78pTHH3OMw-6x7Fs409o2H8F9-1MLOtEgQkGo
+);
+                            }
+                        }
+
+
+.imgg{
+ margin-top: 120px;
+border-radius: 30%;
+border:10px solid #ebbf60;
+
+
+
+ }
+
+ .text1{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 530px;
+    margin-right: 100px;
+    margin-top: -370px;
+    
+     }

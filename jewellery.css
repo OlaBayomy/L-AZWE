@@ -1,0 +1,90 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.show:hover ul.list-categories {
+    max-height: inherit;
+    opacity: 1;
+}
+
+
+.list-categories {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    max-height: 0px;
+    opacity: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 300ms ease;
+}
+
+.list-categories li {
+    margin-top: 15px;
+}
+
+.list-categories li a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-categories li a:hover {
+    color: #ffc64d;
+    transition: 500ms ease;
+}
+
+.addtocart {
+    background-color: #ffc64d;
+    margin-left: 52px;
+    height: 25px;
+    width: 90px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.addtocart:hover {
+    background-color: white;
+    transition: 500ms ease;
+}
+
+a {
+    cursor: pointer;
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover {
+    color: #ffc64d;
+    transition: 500ms ease;
+}
+
+.price {
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.mix {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.containerimg{
+    width: 220px;
+    position: relative;
+    display: inline-block;
+  }
+  .changeimg{
+    width: 100%;
+  }
+.containerimg .changeimg{
+    
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     
+    }
+.containerimg:hover .changeimg{
+    display: inline;
+}

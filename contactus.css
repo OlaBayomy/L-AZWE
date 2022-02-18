@@ -1,0 +1,22 @@
+#contactus {
+
+    border-radius: 17px 0px 17px 0px;
+    background-color: #ffc64d;
+    border: none;
+    width: 140px;
+    height: 35px;
+    position: fixed;
+    bottom: -6px;
+    right: 3px;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 90px;
+}
+#contactus a{
+    text-decoration: none;
+    color:black ;
+}
+#contactus a:hover{
+    color:white;
+    transition: 500ms ease;
+}
