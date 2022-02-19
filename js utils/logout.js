@@ -1,5 +1,5 @@
 if (localStorage.getItem("document.getElementById('user')") != "null")
-    document.getElementById("user").innerHTML = "<i class='fas' style='color:#ffc64d' >&#xf2bd;</i>  " + " " + "<span class='dropdown'> <button style='text-decoration: none ; font-size:18px;color:black ' class='dropbtn'>" + localStorage.getItem("document.getElementById('user')") + "</button><span class='dropdown-content'> <a style='font-weight:normal' onclick='logout()' href='index.html'>Log out</a></span> </span> " + " " + "<i class='fas' style='color:#ffc64d' >&#xf107;</i>"
+    document.getElementById("user").innerHTML = "<i class='fas' style='color:#ffc64d' >&#xf2bd;</i>  " + " " + "<span class='dropdown'> <button style='text-decoration: none ; font-size:18px;color:black ' class='dropbtn'>" + localStorage.getItem("document.getElementById('user')") + "</button><span class='dropdown-content'> <a style='font-weight:normal' onclick='logout()' href='../index.html'>Log out</a></span> </span> " + " " + "<i class='fas' style='color:#ffc64d' >&#xf107;</i>"
 
 function logout() {
     localStorage.setItem("document.getElementById('user')", null)
